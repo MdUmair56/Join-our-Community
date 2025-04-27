@@ -1,0 +1,103 @@
+* {
+    border: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    height: 100vh;
+}
+
+.Join-our-Community {
+    background-color: white;
+    height: 40%;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.title {
+ color: rgb(15, 232, 232);
+ margin-bottom: 30px;
+ font-size: 30px;
+ font-weight: 700;
+}
+
+.subtitle{
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: yellowgreen; 
+  font-weight: 500;
+}
+.Description{
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(176, 173, 173);
+}
+.wrapper {
+    display: flex;
+    height: 60%;
+}
+
+.Monthly-Subscription {
+    background-color: rgb(9, 235, 247);
+    height: 100%;
+    width: 50%;
+    padding-top: 30px; 
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.title1 {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.span { 
+    font-size: 60%;
+    color: rgb(228, 229, 230);
+}
+
+.subtitle1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.description1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.button {
+   background-color: rgb(178, 245, 46);
+   color: white;
+   width: 250px;
+   height: 40px;
+   border: rgb(178, 245, 46);
+   font-weight: 400;
+   font-size: 20px;
+}
+.Why-Us {
+    background-color: rgb(7, 181, 187);
+    height: 100%;
+    width: 50%;
+    padding-top: 60px; 
+    padding-bottom: 60px;
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.size{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    
+}
