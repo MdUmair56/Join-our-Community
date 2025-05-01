@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+div {
+    height: 100vh;
+    border: 10px solid white;
+}
+.solid-bg {
+    background-color: aqua;
+}
+
+.image-bg {
+    background: url(https://images.unsplash.com/photo-1745750747233-c09276a878b3?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(to right, rgba(242, 232, 232, 0.5)),rgba(red, green, blue, 0.5);
+}
+
+.gradient-bg {
+     background: linear-gradient(to right, yellow,green, red);
+}
+.raddial-bg {
+    background: radial-gradient(circle,yellow,green,blue,red);
+}
+
+.multiple-bg {
+    background: url(https://unsplash.com/photos/foggy-trees-covered-in-a-misty-haze-4EvreRzmq44), url(https://unsplash.com/photos/a-sleek-car-is-parked-on-a-rooftop-bvMxVWeNj18);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+    padding: 15px;
+}
